@@ -1,0 +1,98 @@
+[
+      {
+            "image": "https://example.com/image1.jpg",
+            "estate_title": "Modern Family Home",
+            "id": "1",
+            "segment_name": "Single-family home",
+            "description": "A beautiful and modern family home with all amenities.",
+            "price": "$500,000",
+            "status": "sale",
+            "area": "2500 sq ft",
+            "location": "1234 Elm Street, Springfield",
+            "facilities": [
+                  "living room",
+                  "swimming pool",
+                  "kitchen"
+            ]
+      },
+      {
+            "image": "https://example.com/image2.jpg",
+            "estate_title": "Cozy Townhouse",
+            "id": "2",
+            "segment_name": "Townhouse",
+            "description": "A charming townhouse with a small garden and garage.",
+            "price": "$300,000",
+            "status": "sale",
+            "area": "1500 sq ft",
+            "location": "5678 Maple Avenue, Springfield",
+            "facilities": [
+                  "living room",
+                  "garage",
+                  "kitchen"
+            ]
+      },
+      {
+            "image": "https://example.com/image3.jpg",
+            "estate_title": "Urban Apartment",
+            "id": "3",
+            "segment_name": "Apartment",
+            "description": "A stylish apartment located in the heart of the city.",
+            "price": "$1,500 per month",
+            "status": "rent",
+            "area": "900 sq ft",
+            "location": "123 City Center, Springfield",
+            "facilities": [
+                  "living room",
+                  "gym",
+                  "kitchen"
+            ]
+      },
+      {
+            "image": "https://example.com/image4.jpg",
+            "estate_title": "Student Housing",
+            "id": "4",
+            "segment_name": "Student Housing",
+            "description": "Affordable and convenient housing for students.",
+            "price": "$800 per month",
+            "status": "rent",
+            "area": "500 sq ft",
+            "location": "7890 University Road, Springfield",
+            "facilities": [
+                  "living room",
+                  "study area",
+                  "kitchen"
+            ]
+      },
+      {
+            "image": "https://example.com/image5.jpg",
+            "estate_title": "Senior Living Community",
+            "id": "5",
+            "segment_name": "Senior Living",
+            "description": "A peaceful community with facilities for senior living.",
+            "price": "$2,000 per month",
+            "status": "rent",
+            "area": "1000 sq ft",
+            "location": "4567 Elderly Lane, Springfield",
+            "facilities": [
+                  "living room",
+                  "healthcare",
+                  "kitchen"
+            ]
+      },
+      {
+            "image": "https://example.com/image6.jpg",
+            "estate_title": "Beachfront Vacation Rental",
+            "id": "6",
+            "segment_name": "Vacation Rental",
+            "description": "A luxurious vacation rental with a stunning beach view.",
+            "price": "$3,000 per week",
+            "status": "rent",
+            "area": "2000 sq ft",
+            "location": "123 Ocean Drive, Springfield",
+            "facilities": [
+                  "living room",
+                  "swimming pool",
+                  "kitchen"
+            ]
+      }
+]

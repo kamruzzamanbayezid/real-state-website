@@ -40,7 +40,7 @@ const Navbar = () => {
 
       return (
             <div className="set-width pt-4">
-                  <div className="navbar bg-base-100">
+                  <div className="navbar">
                         <div className="navbar-start">
                               <div className="dropdown relative z-50">
                                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -64,9 +64,9 @@ const Navbar = () => {
                               </ul>
                         </div>
                         <div className="navbar-end">
-                              <div className="tooltip tooltip-bottom" data-tip={`${user?.displayName}`}>
+                              <div className="tooltip tooltip-bottom" data-tip={`${user?.displayName}`} >
                                     {
-                                          user && <img className='w-12 h-12 rounded-full mr-2' src={user?.photoURL} alt="" />
+                                          user && <img className='w-12 h-12 rounded-full mr-2 object-cover' src={user?.photoURL} alt="" />
                                     }
                               </div>
                               {

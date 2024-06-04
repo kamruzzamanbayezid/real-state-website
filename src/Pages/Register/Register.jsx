@@ -53,7 +53,7 @@ const Register = () => {
                         <div className="border border-[#ABABAB] bg-[#ffffff33] rounded-md p-8">
                               <h2 className="mb-3 text-3xl font-bold ">Create an Account!!</h2>
                               <p className="text-base font-medium  dark:text-gray-600 mb-5">Already have an account?
-                                    <Link to='/login' rel="noopener noreferrer" className="focus:underline hover:underline text-[#E75854]"> Log in</Link>
+                                    <Link to='/login' rel="noopener noreferrer" className="focus:underline hover:underline common-color"> Log in</Link>
                               </p>
 
                               <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 ">

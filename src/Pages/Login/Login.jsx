@@ -50,7 +50,7 @@ const Login = () => {
                         <div className="border border-[#ABABAB] bg-[#ffffff33] rounded-md p-8">
                               <h2 className="mb-3 text-3xl font-bold ">Log In your Account!!</h2>
                               <p className="text-base font-medium  dark:text-gray-600 mb-5">Don't have any account?
-                                    <Link to='/register' rel="noopener noreferrer" className="focus:underline hover:underline text-[#E75854]"> Create account</Link>
+                                    <Link to='/register' rel="noopener noreferrer" className="focus:underline hover:underline common-color"> Create account</Link>
                               </p>
 
                               <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 ">
@@ -70,7 +70,7 @@ const Login = () => {
 
                                           </div>
                                           <div className="text-end">
-                                                <p className="text-sm text-[#E75854] hover:underline dark:text-gray-600">Forgot password?</p>
+                                                <p className="text-sm common-color hover:underline dark:text-gray-600">Forgot password?</p>
                                           </div>
                                     </div>
                                     <CommonButton text='Log In' width="100%" />

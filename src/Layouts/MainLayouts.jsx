@@ -5,7 +5,9 @@ import Footer from "../Components/Footer/Footer";
 const MainLayouts = () => {
       return (
             <div>
-                  <Outlet />
+                  <div className="min-h-[calc(100vh-273px)]">
+                        <Outlet />
+                  </div>
                   <Footer />
             </div>
       );
