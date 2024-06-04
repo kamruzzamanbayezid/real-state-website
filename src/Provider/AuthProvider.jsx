@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { createContext, useEffect, useState } from 'react';
 import auth from '../Config/firebase.config';
-import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
+import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 
 
 export const AuthContext = createContext(null);
@@ -27,11 +27,6 @@ const AuthProvider = ({ children }) => {
                   displayName: name,
                   photoURL: photoUrl
             })
-      }
-
-      // password reset
-      const forgotPassword = (email) => {
-            return sendPasswordResetEmail(auth, email)
       }
 
       // sign in
@@ -75,12 +70,12 @@ const AuthProvider = ({ children }) => {
             user,
             createUser,
             userUpdate,
-            forgotPassword,
             logIn,
             googleLogin,
             githubLogin,
             logOut,
             loading,
+            setLoading
       }
 
       return (

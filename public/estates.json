@@ -1,98 +1,105 @@
 [
       {
-            "image": "https://example.com/image1.jpg",
-            "estate_title": "Modern Family Home",
-            "id": "1",
-            "segment_name": "Single-family home",
-            "description": "A beautiful and modern family home with all amenities.",
+            "relevant_image": "https://example.com/image1.jpg",
+            "estate_title": "Modern Single-Family Home",
+            "id": "SFH001",
+            "segment_name": "Single-family homes",
+            "description": "A beautiful modern single-family home with a spacious garden and updated interiors. This property features a large living room with hardwood floors, a gourmet kitchen with stainless steel appliances, and a master suite with a walk-in closet and en-suite bathroom. The backyard includes a patio area perfect for entertaining guests, and the two-car garage provides ample storage space.",
             "price": "$500,000",
             "status": "sale",
             "area": "2500 sq ft",
-            "location": "1234 Elm Street, Springfield",
+            "location": "123 Maple Street, Springfield",
             "facilities": [
                   "living room",
                   "swimming pool",
-                  "kitchen"
+                  "Kitchen",
+                  "garage",
+                  "garden"
             ]
       },
       {
-            "image": "https://example.com/image2.jpg",
-            "estate_title": "Cozy Townhouse",
-            "id": "2",
-            "segment_name": "Townhouse",
-            "description": "A charming townhouse with a small garden and garage.",
-            "price": "$300,000",
+            "relevant_image": "https://example.com/image2.jpg",
+            "estate_title": "Luxury Townhouse",
+            "id": "TH002",
+            "segment_name": "Townhouses",
+            "description": "A luxurious townhouse in the heart of the city with high-end finishes. This property offers an open-concept living and dining area with floor-to-ceiling windows, a modern kitchen with quartz countertops and custom cabinetry, and a private rooftop terrace with stunning city views. The master bedroom includes a spacious en-suite bathroom with a soaking tub and separate shower. Additional features include a home office, a fitness room, and secure underground parking.",
+            "price": "$750,000",
             "status": "sale",
-            "area": "1500 sq ft",
-            "location": "5678 Maple Avenue, Springfield",
+            "area": "1800 sq ft",
+            "location": "456 Elm Street, Metropolis",
             "facilities": [
                   "living room",
-                  "garage",
-                  "kitchen"
+                  "Kitchen",
+                  "gym",
+                  "rooftop terrace"
             ]
       },
       {
-            "image": "https://example.com/image3.jpg",
-            "estate_title": "Urban Apartment",
-            "id": "3",
-            "segment_name": "Apartment",
-            "description": "A stylish apartment located in the heart of the city.",
-            "price": "$1,500 per month",
+            "relevant_image": "https://example.com/image3.jpg",
+            "estate_title": "Cozy Apartment",
+            "id": "APT003",
+            "segment_name": "Apartments",
+            "description": "A cozy apartment with a great view of the city skyline. This unit features an open living area with large windows, a compact kitchen with modern appliances, and a comfortable bedroom with ample closet space. The balcony offers a perfect spot for morning coffee or evening relaxation while enjoying the city views. The building includes amenities such as a laundry room, a fitness center, and a communal lounge area.",
+            "price": "$1,500/month",
             "status": "rent",
             "area": "900 sq ft",
-            "location": "123 City Center, Springfield",
+            "location": "789 Pine Street, Downtown",
             "facilities": [
                   "living room",
-                  "gym",
-                  "kitchen"
+                  "Kitchen",
+                  "balcony",
+                  "laundry room"
             ]
       },
       {
-            "image": "https://example.com/image4.jpg",
-            "estate_title": "Student Housing",
-            "id": "4",
-            "segment_name": "Student Housing",
-            "description": "Affordable and convenient housing for students.",
-            "price": "$800 per month",
+            "relevant_image": "https://example.com/image4.jpg",
+            "estate_title": "Student Housing Complex",
+            "id": "SHC004",
+            "segment_name": "Student housing",
+            "description": "Affordable student housing close to the university campus with excellent amenities. This complex offers fully furnished units with shared living spaces, a fully equipped kitchen, and individual study areas. The property features a common area with a game room, a study lounge, and a fitness center. Utilities and high-speed internet are included in the rent, and there is 24/7 on-site security for added safety.",
+            "price": "$600/month",
             "status": "rent",
             "area": "500 sq ft",
-            "location": "7890 University Road, Springfield",
+            "location": "101 College Road, University Town",
             "facilities": [
                   "living room",
-                  "study area",
-                  "kitchen"
+                  "Kitchen",
+                  "study room",
+                  "common area"
             ]
       },
       {
-            "image": "https://example.com/image5.jpg",
+            "relevant_image": "https://example.com/image5.jpg",
             "estate_title": "Senior Living Community",
-            "id": "5",
-            "segment_name": "Senior Living",
-            "description": "A peaceful community with facilities for senior living.",
-            "price": "$2,000 per month",
-            "status": "rent",
-            "area": "1000 sq ft",
-            "location": "4567 Elderly Lane, Springfield",
+            "id": "SLC005",
+            "segment_name": "Senior living communities",
+            "description": "A peaceful senior living community with all necessary facilities for a comfortable life. This property offers spacious units with accessible designs, a communal dining area, and a beautiful garden. Residents can enjoy a range of activities including yoga classes, art workshops, and social events. On-site healthcare services and a 24-hour emergency response system ensure peace of mind for residents and their families.",
+            "price": "$300,000",
+            "status": "sale",
+            "area": "1200 sq ft",
+            "location": "202 Serenity Lane, Retirement Ville",
             "facilities": [
                   "living room",
-                  "healthcare",
-                  "kitchen"
+                  "Kitchen",
+                  "garden",
+                  "healthcare center"
             ]
       },
       {
-            "image": "https://example.com/image6.jpg",
+            "relevant_image": "https://example.com/image6.jpg",
             "estate_title": "Beachfront Vacation Rental",
-            "id": "6",
-            "segment_name": "Vacation Rental",
-            "description": "A luxurious vacation rental with a stunning beach view.",
-            "price": "$3,000 per week",
+            "id": "VR006",
+            "segment_name": "Vacation rentals",
+            "description": "A stunning beachfront vacation rental perfect for family getaways. This property features an open-plan living area with panoramic ocean views, a fully equipped kitchen, and multiple bedrooms each with en-suite bathrooms. The outdoor area includes a private pool, a barbecue grill, and direct access to the beach. Additional amenities include a game room, a home theater, and kayaks for beachside fun.",
+            "price": "$2,000/week",
             "status": "rent",
-            "area": "2000 sq ft",
-            "location": "123 Ocean Drive, Springfield",
+            "area": "1500 sq ft",
+            "location": "303 Ocean Drive, Seaside",
             "facilities": [
                   "living room",
                   "swimming pool",
-                  "kitchen"
+                  "Kitchen",
+                  "private beach access"
             ]
       }
 ]

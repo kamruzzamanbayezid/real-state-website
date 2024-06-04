@@ -7,8 +7,7 @@ import CommonButton from "../../Components/Shared/CommonButton";
 
 const UpdateProfile = () => {
 
-      const { user, userUpdate } = UseAuth();
-      const navigate = useNavigate();
+      const { user, userUpdate, setLoading } = UseAuth();
 
       const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -19,7 +18,7 @@ const UpdateProfile = () => {
             userUpdate(name, url)
                   .then(() => {
                         toast.success('User Updated successfully!!');
-                        navigate('/')
+                        setLoading(false)
                   })
                   .catch(error => {
                         toast.error(error.message)
@@ -30,11 +29,11 @@ const UpdateProfile = () => {
       return (
             <div className="bg-[#f3f4f9]">
                   <Navbar />
-                  <div className="bg-[#f3f4f9] ">
+                  <div>
                         <section className="text-gray-900 max-w-5xl mx-auto py-10">
                               <form onSubmit={handleSubmit(onSubmit)} noValidate="" >
 
-                                    <fieldset className="p-6 flex flex-col lg:flex-row gap-6 lg:gap-0 rounded-md shadow-sm dark:bg-gray-50">
+                                    <fieldset className="p-6 flex flex-col lg:flex-row gap-6 lg:gap-0  dark:bg-gray-50">
                                           <div className="space-y-2 lg:w-[30%] items-center lg:items-start flex flex-col">
                                                 <p className="font-medium text-3xl">Update Profile</p>
                                                 {
