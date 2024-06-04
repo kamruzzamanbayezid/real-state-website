@@ -12,3 +12,8 @@ body {
 .font-bebas {
   font-family: "Bebas Neue", sans-serif;
 }
+
+.set-width {
+  max-width: 1170px;
+  margin: 0 auto;
+}
