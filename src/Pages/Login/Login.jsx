@@ -77,7 +77,7 @@ const Login = () => {
                               </form>
                         </div>
 
-                        <div className="px-10">
+                        <div className="px-4 lg:px-0">
                               <div className="flex items-center w-full my-4">
                                     <hr className="w-full dark:text-gray-600" />
                                     <p className="px-3 dark:text-gray-600 text-[#000000] font-medium">OR</p>
