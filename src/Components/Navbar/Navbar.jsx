@@ -1,6 +1,21 @@
 import { Link, NavLink } from "react-router-dom";
+import UseAuth from "../../Hooks/UseAuth";
+import toast from "react-hot-toast";
+import CommonButton from "../Shared/CommonButton";
 
 const Navbar = () => {
+
+      const { user, logOut } = UseAuth();
+
+      const handleLogOut = () => {
+            logOut()
+                  .then(() => {
+                        toast.success('Successfully Logged out!!')
+                  })
+                  .catch(error => {
+                        toast.error(error.message)
+                  })
+      }
 
       const navLinks = <div className="flex flex-col lg:flex-row lg:items-center gap-3 lg:gap-6">
             <li>
@@ -33,6 +48,12 @@ const Navbar = () => {
                                     </div>
                                     <ul tabIndex={0} className="dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                                           {navLinks}
+                                          <li className="mt-2">
+                                                <NavLink
+                                                      to='/register'
+                                                      className={({ isActive }) => isActive ? 'common-color text-xl font-medium' : 'text-xl font-medium'}
+                                                >Register</NavLink>
+                                          </li>
                                     </ul>
                               </div>
                               <Link to='/' className="font-bold text-2xl md:text-3xl">LegacyEstates</Link>
@@ -43,9 +64,22 @@ const Navbar = () => {
                               </ul>
                         </div>
                         <div className="navbar-end">
-                              <Link to='/login'>
-                                    <button className="text-white bg-[#BC986B] px-8 py-3 text-base font-medium">Login</button>
-                              </Link>
+                              <div className="tooltip tooltip-bottom" data-tip={`${user?.displayName}`}>
+                                    {
+                                          user && <img className='w-12 h-12 rounded-full mr-2' src={user?.photoURL} alt="" />
+                                    }
+                              </div>
+                              {
+                                    user ?
+                                          <div onClick={handleLogOut}><CommonButton text='Log out' /></div>
+                                          :
+                                          <Link to='/login'>
+                                                <CommonButton
+                                                      text='Login'
+                                                />
+                                          </Link>
+                              }
+
                         </div>
                   </div>
             </div>

@@ -1,6 +1,7 @@
 import { CiMail } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa6";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -13,7 +14,9 @@ const Header = () => {
                   <div>
                         <p className="flex items-center gap-2">
                               <FaArrowRightFromBracket className="text-[#BC986B] text-xl" />
-                              <span className="text-base hover:text-[#BC986B] font-medium hover:underline cursor-pointer">Registration for update</span>
+                              <Link to='/register'>
+                                    <span className="text-base hover:text-[#BC986B] font-medium hover:underline cursor-pointer">Registration for update</span>
+                              </Link>
                         </p>
                   </div>
             </div>
