@@ -1,12 +1,14 @@
 import Slider from "../../Components/Slider/Slider";
 import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
+import Estates from "../../Components/Estates/Estates";
 const Home = () => {
       return (
             <div>
-                  <Header/>
+                  <Header />
                   <Navbar></Navbar>
-                  <Slider/>
+                  <Slider />
+                  <Estates />
             </div>
       );
 };

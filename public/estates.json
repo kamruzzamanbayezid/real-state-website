@@ -1,8 +1,8 @@
 [
       {
-            "relevant_image": "https://example.com/image1.jpg",
-            "estate_title": "Modern Single-Family Home",
             "id": "SFH001",
+            "image": "https://i.ibb.co/BzFd34m/home-1.jpg",
+            "estate_title": "Modern Single-Family Home",
             "segment_name": "Single-family homes",
             "description": "A beautiful modern single-family home with a spacious garden and updated interiors. This property features a large living room with hardwood floors, a gourmet kitchen with stainless steel appliances, and a master suite with a walk-in closet and en-suite bathroom. The backyard includes a patio area perfect for entertaining guests, and the two-car garage provides ample storage space.",
             "price": "$500,000",
@@ -15,12 +15,18 @@
                   "Kitchen",
                   "garage",
                   "garden"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "John Doe",
+                  "position": "Real Estate Agent",
+                  "short_description": "Experienced agent with over 10 years in the real estate industry."
+            }
       },
       {
-            "relevant_image": "https://example.com/image2.jpg",
-            "estate_title": "Luxury Townhouse",
             "id": "TH002",
+            "image": "https://i.ibb.co/WHVwK8f/home-2.jpg",
+            "estate_title": "Luxury Townhouse",
             "segment_name": "Townhouses",
             "description": "A luxurious townhouse in the heart of the city with high-end finishes. This property offers an open-concept living and dining area with floor-to-ceiling windows, a modern kitchen with quartz countertops and custom cabinetry, and a private rooftop terrace with stunning city views. The master bedroom includes a spacious en-suite bathroom with a soaking tub and separate shower. Additional features include a home office, a fitness room, and secure underground parking.",
             "price": "$750,000",
@@ -32,12 +38,18 @@
                   "Kitchen",
                   "gym",
                   "rooftop terrace"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "Jane Smith",
+                  "position": "Luxury Property Specialist",
+                  "short_description": "Specializing in high-end properties for discerning clients."
+            }
       },
       {
-            "relevant_image": "https://example.com/image3.jpg",
-            "estate_title": "Cozy Apartment",
             "id": "APT003",
+            "image": "https://i.ibb.co/SX2pHW4/empty-living-room-interior-with-pc-background.jpg",
+            "estate_title": "Cozy Apartment",
             "segment_name": "Apartments",
             "description": "A cozy apartment with a great view of the city skyline. This unit features an open living area with large windows, a compact kitchen with modern appliances, and a comfortable bedroom with ample closet space. The balcony offers a perfect spot for morning coffee or evening relaxation while enjoying the city views. The building includes amenities such as a laundry room, a fitness center, and a communal lounge area.",
             "price": "$1,500/month",
@@ -49,12 +61,18 @@
                   "Kitchen",
                   "balcony",
                   "laundry room"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "Alice Johnson",
+                  "position": "Rental Property Manager",
+                  "short_description": "Dedicated to finding the perfect rental home for every client."
+            }
       },
       {
-            "relevant_image": "https://example.com/image4.jpg",
-            "estate_title": "Student Housing Complex",
             "id": "SHC004",
+            "image": "https://i.ibb.co/WfRDHfs/2147666472.jpg",
+            "estate_title": "Student Housing Complex",
             "segment_name": "Student housing",
             "description": "Affordable student housing close to the university campus with excellent amenities. This complex offers fully furnished units with shared living spaces, a fully equipped kitchen, and individual study areas. The property features a common area with a game room, a study lounge, and a fitness center. Utilities and high-speed internet are included in the rent, and there is 24/7 on-site security for added safety.",
             "price": "$600/month",
@@ -66,12 +84,18 @@
                   "Kitchen",
                   "study room",
                   "common area"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "Michael Brown",
+                  "position": "Student Housing Coordinator",
+                  "short_description": "Committed to providing quality housing solutions for students."
+            }
       },
       {
-            "relevant_image": "https://example.com/image5.jpg",
-            "estate_title": "Senior Living Community",
             "id": "SLC005",
+            "image": "https://i.ibb.co/7WTSY7y/2149443862.jpg",
+            "estate_title": "Senior Living Community",
             "segment_name": "Senior living communities",
             "description": "A peaceful senior living community with all necessary facilities for a comfortable life. This property offers spacious units with accessible designs, a communal dining area, and a beautiful garden. Residents can enjoy a range of activities including yoga classes, art workshops, and social events. On-site healthcare services and a 24-hour emergency response system ensure peace of mind for residents and their families.",
             "price": "$300,000",
@@ -83,12 +107,18 @@
                   "Kitchen",
                   "garden",
                   "healthcare center"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "Susan Davis",
+                  "position": "Senior Living Consultant",
+                  "short_description": "Specializing in finding comfortable and safe homes for seniors."
+            }
       },
       {
-            "relevant_image": "https://example.com/image6.jpg",
-            "estate_title": "Beachfront Vacation Rental",
             "id": "VR006",
+            "image": "https://i.ibb.co/qF2nfwJ/651.jpg",
+            "estate_title": "Beachfront Vacation Rental",
             "segment_name": "Vacation rentals",
             "description": "A stunning beachfront vacation rental perfect for family getaways. This property features an open-plan living area with panoramic ocean views, a fully equipped kitchen, and multiple bedrooms each with en-suite bathrooms. The outdoor area includes a private pool, a barbecue grill, and direct access to the beach. Additional amenities include a game room, a home theater, and kayaks for beachside fun.",
             "price": "$2,000/week",
@@ -100,6 +130,12 @@
                   "swimming pool",
                   "Kitchen",
                   "private beach access"
-            ]
+            ],
+            "author": {
+                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "name": "David Wilson",
+                  "position": "Vacation Rental Specialist",
+                  "short_description": "Expert in finding the best vacation rentals for a perfect holiday."
+            }
       }
 ]

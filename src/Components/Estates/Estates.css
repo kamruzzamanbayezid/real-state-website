@@ -1,0 +1,12 @@
+.card-style:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hover-card {
+      transition: all 0.3s ease;
+}
+
+.hover-card:hover .card-image {
+      margin-top: 0;
+      transition: margin-top 0.3s ease;
+}
