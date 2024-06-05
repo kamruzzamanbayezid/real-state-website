@@ -4,6 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdAreaChart } from "react-icons/md";
 import CommonButton from "../Shared/CommonButton";
 import NavbarForEstateDetails from "../NavbarForEstateDetails/NavbarForEstateDetails";
+import { Helmet } from "react-helmet-async";
 
 const EstateDetails = () => {
 
@@ -16,6 +17,9 @@ const EstateDetails = () => {
 
       return (
             <div>
+                  <Helmet>
+                        <title>STATE | ESTATE DETAILS</title>
+                  </Helmet>
                   <div>
                         <NavbarForEstateDetails />
                         <div className='relative -mt-20'>

@@ -2,8 +2,8 @@ import { useForm } from "react-hook-form";
 import Navbar from "../../Components/Navbar/Navbar";
 import UseAuth from "../../Hooks/UseAuth";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
 import CommonButton from "../../Components/Shared/CommonButton";
+import { Helmet } from "react-helmet-async";
 
 const UpdateProfile = () => {
 
@@ -28,6 +28,9 @@ const UpdateProfile = () => {
 
       return (
             <div className="bg-[#f3f4f9]">
+                  <Helmet>
+                        <title>STATE | UPDATE PROFILE</title>
+                  </Helmet>
                   <Navbar />
                   <div>
                         <section className="text-gray-900 max-w-5xl mx-auto py-10">

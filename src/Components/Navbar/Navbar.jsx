@@ -32,9 +32,9 @@ const Navbar = () => {
             </li>
             <li>
                   <NavLink
-                        to='/userProfile'
+                        to='/about'
                         className={({ isActive }) => isActive ? 'common-color text-xl font-medium' : 'text-xl font-medium'}
-                  >User Profile</NavLink>
+                  >About Us</NavLink>
             </li>
       </div>
 

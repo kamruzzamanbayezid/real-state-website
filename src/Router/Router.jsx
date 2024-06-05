@@ -7,6 +7,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import PrivateRoute from "../Routes/PrivateRoute";
 import EstateDetails from "../Components/Estates/EstateDetails";
+import AboutUs from "../Pages/AboutUs/AboutUs"
 
 const router = createBrowserRouter([
       {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
                         element: <Login />
                   },
                   {
+                        path: '/about',
+                        loader: async () => await fetch('/estates.json'),
+                        element: <PrivateRoute><AboutUs /></PrivateRoute>
+                  },
+                  {
                         path: '/updateProfile',
                         element: <PrivateRoute><UpdateProfile /></PrivateRoute>
                   },
@@ -34,7 +40,8 @@ const router = createBrowserRouter([
                         path: '/estateDetails/:estateId',
                         loader: async () => await fetch('/estates.json'),
                         element: <PrivateRoute><EstateDetails /></PrivateRoute>
-                  }
+                  },
+
             ],
       }
 ]);
