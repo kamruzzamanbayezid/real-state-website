@@ -1,9 +1,9 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import { IoIosPricetags } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdAreaChart } from "react-icons/md";
 import CommonButton from "../Shared/CommonButton";
+import NavbarForEstateDetails from "../NavbarForEstateDetails/NavbarForEstateDetails";
 
 const EstateDetails = () => {
 
@@ -12,15 +12,15 @@ const EstateDetails = () => {
 
       const findEstate = estatesData?.find(estate => estate?.id === estateId);
 
-      const { id, image, cover_image, estate_title, segment_name, description, price, status, area, location, facilities, author } = findEstate;
+      const { image, cover_image, estate_title, segment_name, description, price, status, area, location, facilities, author } = findEstate;
 
       return (
             <div>
                   <div>
-                        <Navbar />
+                        <NavbarForEstateDetails />
                         <div className='relative -mt-20'>
                               <div className='absolute inset-0' style={{
-                                    backgroundImage: `url('https://i.ibb.co/HgrXvKV/slider-1.webp')`,
+                                    backgroundImage: `url('${cover_image}')`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                     backgroundRepeat: 'no-repeat',

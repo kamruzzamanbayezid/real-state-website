@@ -27,6 +27,7 @@
       {
             "id": "TH002",
             "image": "https://i.ibb.co/WHVwK8f/home-2.jpg",
+            "cover_image": "https://i.ibb.co/WHVwK8f/home-2.jpg",
             "estate_title": "Luxury Townhouse",
             "segment_name": "Townhouses",
             "description": "A luxurious townhouse in the heart of the city with high-end finishes. This property offers an open-concept living and dining area with floor-to-ceiling windows, a modern kitchen with quartz countertops and custom cabinetry, and a private rooftop terrace with stunning city views. The master bedroom includes a spacious en-suite bathroom with a soaking tub and separate shower. Additional features include a home office, a fitness room, and secure underground parking.",
@@ -41,8 +42,8 @@
                   "rooftop terrace"
             ],
             "author": {
-                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
-                  "name": "Jane Smith",
+                  "author_image": "https://i.ibb.co/YhRm0bN/profile.jpg",
+                  "name": "Kamruzzaman Bayezid",
                   "position": "Luxury Property Specialist",
                   "short_description": "Specializing in high-end properties for discerning clients."
             }
@@ -50,6 +51,7 @@
       {
             "id": "APT003",
             "image": "https://i.ibb.co/SX2pHW4/empty-living-room-interior-with-pc-background.jpg",
+            "cover_image": "https://i.ibb.co/KbtYtwy/2149383711.jpg",
             "estate_title": "Cozy Apartment",
             "segment_name": "Apartments",
             "description": "A cozy apartment with a great view of the city skyline. This unit features an open living area with large windows, a compact kitchen with modern appliances, and a comfortable bedroom with ample closet space. The balcony offers a perfect spot for morning coffee or evening relaxation while enjoying the city views. The building includes amenities such as a laundry room, a fitness center, and a communal lounge area.",
@@ -73,6 +75,7 @@
       {
             "id": "SHC004",
             "image": "https://i.ibb.co/WfRDHfs/2147666472.jpg",
+            "cover_image": "https://i.ibb.co/VTpGFHv/2149361542.jpg",
             "estate_title": "Student Housing Complex",
             "segment_name": "Student housing",
             "description": "Affordable student housing close to the university campus with excellent amenities. This complex offers fully furnished units with shared living spaces, a fully equipped kitchen, and individual study areas. The property features a common area with a game room, a study lounge, and a fitness center. Utilities and high-speed internet are included in the rent, and there is 24/7 on-site security for added safety.",
@@ -87,7 +90,7 @@
                   "common area"
             ],
             "author": {
-                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "author_image": "https://i.ibb.co/QYJcFQP/images.jpg",
                   "name": "Michael Brown",
                   "position": "Student Housing Coordinator",
                   "short_description": "Committed to providing quality housing solutions for students."
@@ -96,6 +99,7 @@
       {
             "id": "SLC005",
             "image": "https://i.ibb.co/7WTSY7y/2149443862.jpg",
+            "cover_image": "https://i.ibb.co/CBtnwxR/2151261179.jpg",
             "estate_title": "Senior Living Community",
             "segment_name": "Senior living communities",
             "description": "A peaceful senior living community with all necessary facilities for a comfortable life. This property offers spacious units with accessible designs, a communal dining area, and a beautiful garden. Residents can enjoy a range of activities including yoga classes, art workshops, and social events. On-site healthcare services and a 24-hour emergency response system ensure peace of mind for residents and their families.",
@@ -110,7 +114,7 @@
                   "healthcare center"
             ],
             "author": {
-                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "author_image": "https://i.ibb.co/2gG7BfP/portrait-young-spanish-man-looking-260nw-2036178338.webp",
                   "name": "Susan Davis",
                   "position": "Senior Living Consultant",
                   "short_description": "Specializing in finding comfortable and safe homes for seniors."
@@ -119,6 +123,7 @@
       {
             "id": "VR006",
             "image": "https://i.ibb.co/qF2nfwJ/651.jpg",
+            "cover_image": "https://i.ibb.co/qF2nfwJ/651.jpg",
             "estate_title": "Beachfront Vacation Rental",
             "segment_name": "Vacation rentals",
             "description": "A stunning beachfront vacation rental perfect for family getaways. This property features an open-plan living area with panoramic ocean views, a fully equipped kitchen, and multiple bedrooms each with en-suite bathrooms. The outdoor area includes a private pool, a barbecue grill, and direct access to the beach. Additional amenities include a game room, a home theater, and kayaks for beachside fun.",
@@ -133,7 +138,7 @@
                   "private beach access"
             ],
             "author": {
-                  "author_image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+                  "author_image": "https://i.ibb.co/89rf0H4/ppp.jpg",
                   "name": "David Wilson",
                   "position": "Vacation Rental Specialist",
                   "short_description": "Expert in finding the best vacation rentals for a perfect holiday."
