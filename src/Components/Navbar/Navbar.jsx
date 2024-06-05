@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
 
       return (
-            <div className="set-width pt-4">
+            <div className="set-width pt-4 relative z-50">
                   <div className="navbar">
                         <div className="navbar-start">
                               <div className="dropdown relative z-50">

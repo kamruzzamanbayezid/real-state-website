@@ -6,7 +6,23 @@
       transition: all 0.3s ease;
 }
 
+.hover-card:hover #view-btn {
+      display: flex;
+}
+
 .hover-card:hover .card-image {
       margin-top: 0;
       transition: margin-top 0.3s ease;
+}
+
+.location {
+      background: linear-gradient(0deg, #000 0.1%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.home-slider-place {
+      color: #FFF;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
 }

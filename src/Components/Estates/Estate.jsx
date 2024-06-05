@@ -2,20 +2,25 @@ import PropTypes from 'prop-types';
 import { IoIosPricetags } from "react-icons/io";
 import { MdAreaChart } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
+import './Estates.css';
+import { Link } from 'react-router-dom';
 
 const Estate = ({ estate }) => {
 
       const { id, image, estate_title, segment_name, description, price, status, area, location, facilities, author } = estate;
 
       return (
-            <div className="bg-white card-style p-5 hover-card mb-10">
+            <div className="bg-white card-style p-5 hover-card mb-10 flex flex-col">
                   <div className='relative'>
                         <img className='card-image -mt-10 transition-all duration-300' src="https://i.ibb.co/WHVwK8f/home-2.jpg" alt="Luxury Townhouse" />
-                        <div className={`absolute top-0 right-0 ${status == 'sale' ? 'bg-red-600' : 'bg-orange-600'}  px-3 py-1`}>
+                        <div id='view-btn' className='hidden absolute bg-[#BC986B] text-white inset-16 items-center justify-center text-lg font-medium'>
+                              <Link to={`/estateDetails/${id}`}><button className='hover:underline'>View Details</button></Link>
+                        </div>
+                        <div className={`absolute bottom-0 right-0 ${status == 'sale' ? 'bg-red-600' : 'bg-orange-600'}  px-3 py-1`}>
                               <span className='text-white font-medium'>For {status}</span>
                         </div>
                   </div>
-                  <h2 className='text-2xl font-bold mt-5 mb-2 common-color '>{estate_title}</h2>
+                  <h2 className='text-2xl font-bold mt-5 mb-2 common-color flex-1'>{estate_title}</h2>
 
                   <span className='text-sm text-gray-600 flex items-center gap-2 mb-4'><IoLocationSharp className='text-xl common-color' /> {location}</span>
 
