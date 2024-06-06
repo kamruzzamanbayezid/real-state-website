@@ -1,0 +1,37 @@
+[
+    {
+        "id": "TST001",
+        "image": "https://i.ibb.co/bQCSqxP/5677.jpg",
+        "name": "Alice Thompson",
+        "description": "The process of finding my dream home was seamless and enjoyable thanks to the exceptional service provided by the team. Highly recommended!",
+        "position": "Homeowner"
+    },
+    {
+        "id": "TST002",
+        "image": "https://i.ibb.co/YhRm0bN/profile.jpg",
+        "name": "Michael Johnson",
+        "description": "Excellent customer service and knowledgeable staff. They made the home buying process stress-free and straightforward.",
+        "position": "Investor"
+    },
+    {
+        "id": "TST003",
+        "image": "https://i.ibb.co/qJY1Nsj/3542.jpg",
+        "name": "Emily Davis",
+        "description": "I couldn't have asked for a better experience. The team was professional, responsive, and truly cared about helping me find the perfect place.",
+        "position": "First-time Buyer"
+    },
+    {
+        "id": "TST004",
+        "image": "https://i.ibb.co/QYJcFQP/images.jpg",
+        "name": "James Wilson",
+        "description": "From start to finish, the service was exceptional. The team provided valuable insights and guided me through every step of the process.",
+        "position": "Property Developer"
+    },
+    {
+        "id": "TST005",
+        "image": "https://i.ibb.co/2gG7BfP/portrait-young-spanish-man-looking-260nw-2036178338.webp",
+        "name": "Sarah Martinez",
+        "description": "The level of professionalism and dedication was impressive. They went above and beyond to ensure I found the perfect home for my family.",
+        "position": "Relocation Specialist"
+    }
+]

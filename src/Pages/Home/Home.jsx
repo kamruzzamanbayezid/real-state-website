@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import Estates from "../../Components/Estates/Estates";
 import { Helmet } from "react-helmet-async";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 const Home = () => {
       return (
             <div>
@@ -13,6 +14,7 @@ const Home = () => {
                   <Navbar></Navbar>
                   <Slider />
                   <Estates />
+                  <Testimonials />
             </div>
       );
 };
