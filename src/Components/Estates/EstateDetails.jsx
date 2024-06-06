@@ -33,7 +33,7 @@ const EstateDetails = () => {
                               }}></div>
                               <div className='absolute inset-0 z-0'></div>
                               <div className='location relative z-10 home-slider-place flex flex-col justify-center items-center h-[70vh] md:h-[60vh] w-[100vw] mx-auto'>
-                                    <h1 className='text-white text-center font-medium lg:text-5xl mb-4'>{estate_title}</h1>
+                                    <h1 className='text-white text-center font-medium lg:text-5xl mb-4 animate__animated animate__zoomIn'>{estate_title}</h1>
                                     <span className='text-base text-white flex items-center gap-2 mb-4'><IoLocationSharp className='text-xl common-color' /> {location}</span>
 
                               </div>

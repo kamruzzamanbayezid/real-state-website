@@ -28,7 +28,7 @@ const AboutUs = () => {
                               }}></div>
                               <div className='absolute inset-0 z-0'></div>
                               <div className='location relative z-10 home-slider-place flex flex-col justify-center items-center h-[30vh] md:h-[50vh] w-[100vw] mx-auto'>
-                                    <h1 className='text-white text-center font-medium lg:text-5xl mb-4'>ABOUT US</h1>
+                                    <h1 className='text-white text-center font-medium lg:text-5xl mb-4 animate__animated animate__zoomIn'>ABOUT US</h1>
 
                               </div>
                         </div>

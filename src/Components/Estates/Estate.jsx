@@ -4,10 +4,12 @@ import { MdAreaChart } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import './Estates.css';
 import { Link } from 'react-router-dom';
+import 'animate.css';
+
 
 const Estate = ({ estate }) => {
 
-      const { id, image, estate_title, segment_name, description, price, status, area, location, facilities, author } = estate;
+      const { id, estate_title, segment_name, price, status, area, location } = estate;
 
       return (
             <div className="bg-white card-style p-5 hover-card mb-10 flex flex-col">
@@ -20,7 +22,7 @@ const Estate = ({ estate }) => {
                               <span className='text-white font-medium'>For {status}</span>
                         </div>
                   </div>
-                  <h2 className='text-2xl font-bold mt-5 mb-2 common-color flex-1'>{estate_title}</h2>
+                  <h2 className='text-2xl font-bold mt-5 mb-2 common-color flex-1 '>{estate_title}</h2>
 
                   <span className='text-sm text-gray-600 flex items-center gap-2 mb-4'><IoLocationSharp className='text-xl common-color' /> {location}</span>
 

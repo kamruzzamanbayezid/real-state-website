@@ -50,8 +50,8 @@ const Slider = () => {
                               }}></div>
                               <div className='absolute inset-0 z-0'></div>
                               <div className='sajek relative z-10 home-slider-place flex flex-col  justify-center items-center h-[80vh] md:h-[80vh] w-[100vw]'>
-                                    <h1 className='text-white font-medium lg:text-6xl mb-4'>Buy & Sell property Here</h1>
-                                    <p className='text-white font-light text-sm lg:text-lg w-[80%] md:w-2/3 mx-auto mb-5 md:mb-7'>Discover your perfect home and sell your current property with ease through our comprehensive residential real estate platform.</p>
+                                    <h1 className='text-white font-medium lg:text-6xl mb-4 animate__animated animate__lightSpeedInRight'>Buy & Sell property Here</h1>
+                                    <p className='text-white font-light text-sm lg:text-lg w-[80%] md:w-2/3 mx-auto mb-5 md:mb-7 animate__animated animate__lightSpeedInLeft'>Discover your perfect home and sell your current property with ease through our comprehensive residential real estate platform.</p>
 
                                     <CommonButton text='Get Started' width='200px' height='50px' />
                               </div>
